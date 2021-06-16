@@ -1,0 +1,7 @@
+applications:
+  - name: watdarn
+memory: 64M
+path: build/
+buildpack: staticfile_buildpack 
+routes:
+  - route: watdarn.us-south.cf.appdomain.cloud
